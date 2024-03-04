@@ -1,30 +1,34 @@
 import React from 'react';
-import { View, Text, ScrollView, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, ScrollView, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
-const stories = [
+const StoryData = [
   {
     id: 1,
-    title: 'Story 1',
-    content: 'This is the content of Story 1...',
+    title: `Daniel in the Lion's den`,
+    intro: `'Story of a faithful man of GOD'`,
   },
   {
     id: 2,
-    title: 'Story 2',
-    content: 'This is the content of Story 2...',
+    title: 'The Prodigal Son',
+    intro: 'This is the content of Story 2...',
   },
-  // Add more stories as needed
+  {
+    id: 3,
+    title: `Joseph and the coat of many colours`,
+    intro: 'A Journey from Betrayal to Redemption',
+  }
 ];
 
 const StoryPageScreen = ({ navigation }) => {
-  const navigateToStory = (storyId) => {
+  const navigateToStory = (StoryId) => {
     // Navigate to the individual story page
-    navigation.navigate('IndividualStory', { storyId });
+    navigation.navigate('ReadStory', { StoryId });
   };
 
   return (
-    <ScrollView style={{ padding: 20 }}>
+    <ScrollView style={styles.storypage}>
       <Text style={{ fontSize: 24, marginBottom: 20 }}>Stories</Text>
-      {stories.map((story) => (
+      {StoryData.map((story) => (
         <TouchableOpacity
           key={story.id}
           style={{
@@ -36,24 +40,13 @@ const StoryPageScreen = ({ navigation }) => {
           }}
           onPress={() => navigateToStory(story.id)}
         >
+          <Image style={styles.cardImg} source={require('../Assets/003.jpg')}  />
           <Text style={{ fontSize: 18 }}>{story.title}</Text>
+          <Text style={{ fontSize: 10 }}>{story.intro}</Text>
         </TouchableOpacity>
       ))}
 
-      <View style={styles.cardsContainer}>
-        <TouchableOpacity style={styles.card}>
-          <Text style={styles.cardText}>Card 1</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.card}>
-          <Text style={styles.cardText}>Card 2</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.card}>
-          <Text style={styles.cardText}>Card 3</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.card}>
-          <Text style={styles.cardText}>Card 3</Text>
-        </TouchableOpacity>
-      </View>
+
 
 
 
@@ -64,25 +57,17 @@ const StoryPageScreen = ({ navigation }) => {
 
 
 const styles = StyleSheet.create({
-    cardsContainer: {
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        justifyContent: 'space-around',
-        marginTop: 20,
-      },
-      card: {
-        width: '45%',
-        height: 100,
-        backgroundColor: '#1d1d1d',
-        justifyContent: 'center',
-        alignItems: 'center',
-        borderRadius: 10,
-        marginBottom: 10,
-      },
-      cardText: {
-        color: '#fff',
-        fontSize: 18,
-      },
+
+  storypage: {
+    padding: 20,
+  },
+  cardImg: {
+      widht: '100%',
+      height: 150,
+      borderRadius: 5,
+  }
+
+    
 });
 
 

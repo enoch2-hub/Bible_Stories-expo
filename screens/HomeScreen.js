@@ -10,13 +10,6 @@ import Swiper from 'react-native-swiper';
 const HomeScreen = () => {
   const navigation = useNavigation();
 
-  const navigateToCarouselScreen = () => {
-    navigation.navigate('CarouselScreen');
-  };
-
-  const navigateToStoriesScreen = () => {
-    navigation.navigate('StoriesScreen');
-  };
 
   const navigateToStoryPage = () => {
     navigation.navigate('StoryPage');
@@ -27,11 +20,11 @@ const HomeScreen = () => {
     
 
       <View style={styles.navbar}>
-        <Text style={styles.navbarText}></Text>
+        <Image source={require('../Assets/Logo2.png')} style={styles.logo}/>
+        <Text style={styles.navbarText}>Bible Stories</Text>
       </View>
 
 
-      <Text>Bible Stories</Text>
       <Swiper style={styles.carouselContainer} showsPagination={false} autoplay>
         <Image
           source={require('../Assets/003.jpg')}
@@ -47,18 +40,26 @@ const HomeScreen = () => {
         />
       </Swiper>
 
-      <Button title="Stories Screen" onPress={navigateToStoriesScreen} />
+
+      <View style={styles.cardsContainer}>
+        <TouchableOpacity style={styles.card}>
+          <Text style={styles.cardText}>Card 1</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.card}>
+          <Text style={styles.cardText}>Card 2</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.card}>
+          <Text style={styles.cardText}>Card 3</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.card}>
+          <Text style={styles.cardText}>Card 3</Text>
+        </TouchableOpacity>
+      </View>
+
       <Button title="Story Page" onPress={navigateToStoryPage} />
 
 
 
-
-
-      
-
-
-
-      
     </View>
   );
 };
@@ -74,19 +75,27 @@ const styles = StyleSheet.create({
     },
     navbar: {
       height: 100,
-      backgroundColor: '#004ea7',
+      width: '100%',
+    //   backgroundColor: '#1f1f1f',
       padding: 15,
       alignItems: 'center',
       display: 'flex',
       justifyContent: 'center',
-      alignItems: 'center'
+      alignItems: 'center',
+      flexDirection: 'row',
+      gap: 20,
     },
     navbarText: {
-      color: '#fff',
-      fontSize: 20,
-      fontWeight: 'bold',
+    //   color: '#fff',
+      color: '#1f1f1f',
+      fontSize: 30,
+    },
+    logo: {
+      height: 100,
+      width: 110,
     },
     carouselContainer: {
+      marginTop: 30,
       height: 300,
     },
     carouselImage: {
@@ -95,7 +104,25 @@ const styles = StyleSheet.create({
       resizeMode: 'cover',
     },
    
-  
+    cardsContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    marginTop: 20,
+    },
+    card: {
+    width: '45%',
+    height: 100,
+    backgroundColor: '#1d1d1d',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 10,
+    marginBottom: 10,
+    },
+    cardText: {
+    color: '#fff',
+    fontSize: 18,
+    },
   
     linearGradient: {
       flex: 1,

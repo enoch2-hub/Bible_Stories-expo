@@ -12,17 +12,11 @@ import { createStackNavigator } from '@react-navigation/stack';
 // Import your screens (e.g., HomeScreen, StoryPageScreen)
 import HomeScreen from './screens/HomeScreen';
 import StoryPageScreen from './screens/StoryPageScreen';
+import ReadStory from './screens/ReadStory';
 
 const Stack = createStackNavigator();
 
-const MainPage = () => {
-  // const navigation = useNavigation();
-
-  // const handlePress = () => {
-  //   navigation.navigate('./components/StoryPage/StoryPage')
-  //   // alert('h')
-  // }
- 
+const MainPage = () => { 
   return (
     <View style={styles.container}>
 
@@ -30,6 +24,7 @@ const MainPage = () => {
             <Stack.Navigator initialRouteName="Home">
               <Stack.Screen name="Home" component={HomeScreen} />
               <Stack.Screen name="StoryPage" component={StoryPageScreen} />
+              <Stack.Screen name="ReadStory" component={ReadStory} />
             </Stack.Navigator>
       </NavigationContainer>
       
