@@ -4,10 +4,10 @@
     "slug": "Bible_Stories",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./Assets/Logo.png",
+    "icon": "./Assets/Logo2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./Assets/Logo.png",
+      "image": "./Assets/Logo2.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./Assets/Logo.png",
+        "foregroundImage": "./Assets/Logo2.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./Assets/Logo.png"
+      "favicon": "./Assets/Logo2.png"
     }
   }
 }

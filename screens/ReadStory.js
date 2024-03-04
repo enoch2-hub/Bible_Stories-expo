@@ -62,6 +62,23 @@ const ReadStory = ({ route }) => {
 
     imageUrl: require('../Assets/005.jpg'),
   },
+  {
+    id: 4,
+    title: 'Blind Bartimaeus',
+    intro: 'A Story of Faith and Healing',
+    content: `In the bustling streets of Jericho, a blind beggar named Bartimaeus sat by the roadside. Unable to see, he relied on the sounds and voices around him to navigate his world. One day, he heard that Jesus of Nazareth was passing by.
+
+    Bartimaeus, seizing the opportunity, began to cry out, "Jesus, Son of David, have mercy on me!" The crowd tried to silence him, but Bartimaeus persisted even more fervently. His desperate plea caught the attention of Jesus.
+    
+    Jesus, moved by the blind man's faith, called him forward. Bartimaeus, casting aside his cloak, sprang to his feet and approached Jesus. With compassion, Jesus asked him, "What do you want me to do for you?" Bartimaeus replied, "Rabbi, I want to see."
+    
+    Jesus, recognizing Bartimaeus' faith, declared, "Go, your faith has healed you." Instantly, Bartimaeus regained his sight. Overwhelmed with gratitude, he followed Jesus on the way.
+    
+    This story of Blind Bartimaeus is a powerful testament to the transformative power of faith and the compassion of Jesus. It teaches us the importance of persistence in seeking God's mercy and the incredible outcomes that result from trusting in His healing touch.`,
+    
+    imageUrl: require('../Assets/011.jpg'),
+
+  }
 
 ];
 
