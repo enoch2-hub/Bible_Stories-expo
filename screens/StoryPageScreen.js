@@ -25,7 +25,18 @@ const StoryData = [
     title: 'Blind Bartimaeus',
     intro: 'A Story of Faith and Healing',
     imageUrl: require('../Assets/011.jpg'),
-
+  },
+  {
+    id: 5,
+    title: `Naaman's Servant Girl`,
+    intro: `A Message of Compassion and Healing`,
+    imageUrl: require('../Assets/003.jpg'),
+  },
+  {
+    id: 6,
+    title: `Jonah and the Whale`,
+    intro: `A Tale of Obedience, Repentance, and Divine Mercy`,
+    imageUrl: require('../Assets/008.jpg'),
   }
 ];
 
@@ -42,17 +53,18 @@ const StoryPageScreen = ({ navigation }) => {
         <TouchableOpacity
           key={story.id}
           style={{
-            padding: 10,
+            padding: 20,
             marginBottom: 10,
             borderWidth: 1,
             borderColor: '#ccc',
-            borderRadius: 5,
+            borderRadius: 20,
+            backgroundColor: '#000000e1',
           }}
           onPress={() => navigateToStory(story.id)}
         >
           <Image style={styles.cardImg} source={story.imageUrl}  />
-          <Text style={{ fontSize: 18 }}>{story.title}</Text>
-          <Text style={{ fontSize: 10 }}>{story.intro}</Text>
+          <Text style={{ fontSize: 18, color: 'white' }}>{story.title}</Text>
+          <Text style={{ fontSize: 10, color: 'white' }}>{story.intro}</Text>
         </TouchableOpacity>
       ))}
 

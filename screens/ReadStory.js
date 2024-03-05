@@ -78,6 +78,40 @@ const ReadStory = ({ route }) => {
     
     imageUrl: require('../Assets/011.jpg'),
 
+  },
+  {
+    id: 5,
+    title: `Naaman's Servant Girl`,
+    intro: `A Message of Compassion and Healing`,
+    content: `In the land of Aram, there lived a powerful and esteemed military commander named Naaman. Despite his military prowess, Naaman was afflicted with a skin disease, leprosy. In his household, there was a young Israelite girl who served as a maid to Naaman's wife.
+
+    Observing her master's suffering, the servant girl told her mistress about the prophet Elisha in Samaria, believing that he could heal Naaman. The news reached Naaman, and with hope for a cure, he went to the king of Aram, who sent him with a letter to the king of Israel.
+    
+    Confused and anxious, the king of Israel tore his clothes, fearing that Naaman's request was an attempt to provoke conflict. Elisha, aware of the situation, sent a message to the king, asking him to send Naaman to him.
+    
+    When Naaman arrived at Elisha's house, he expected an elaborate healing ritual. Instead, Elisha sent a messenger to instruct Naaman to wash seven times in the Jordan River. Initially offended by the simplicity of the command, Naaman's servants convinced him to obey.
+    
+    As Naaman dipped himself in the Jordan River seven times, his skin was miraculously restored, and he became clean. Overwhelmed with gratitude, Naaman returned to Elisha, acknowledging the God of Israel as the true God and offering gifts.
+    
+    The story of Naaman's servant girl is a beautiful narrative of compassion and faith. The young maid, though in a position of servitude, cared for her master's well-being, leading to the healing of a mighty commander and a declaration of faith in the God of Israel.`,
+    imageUrl: require('../Assets/003.jpg'),
+  },
+  {
+    id: 6,
+    title: `Jonah and the Whale`,
+    intro: `A Tale of Obedience, Repentance, and Divine Mercy`,
+    content: `In the ancient city of Nineveh, God called upon a prophet named Jonah to deliver a message of repentance to its people. Jonah, however, sought to escape this daunting task and boarded a ship bound for Tarshish, hoping to flee from the presence of God.
+
+    During the sea journey, a great storm arose, threatening to engulf the ship. The sailors, realizing that the storm was a result of Jonah's disobedience, reluctantly threw him overboard to appease the raging sea. As Jonah sank into the depths, a massive whale, appointed by God, swallowed him.
+    
+    Inside the belly of the whale, Jonah faced a time of deep reflection and prayer. In his distress, Jonah cried out to God, repenting for his disobedience and expressing his commitment to fulfill the divine mission. God, in His mercy, commanded the whale to vomit Jonah onto dry land.
+    
+    Freed from the whale, Jonah received God's call once again. This time, he obeyed and traveled to Nineveh. As he proclaimed God's message of impending judgment, the people of Nineveh, from the greatest to the least, heeded the warning. They fasted, repented, and turned from their wicked ways.
+    
+    Witnessing Nineveh's repentance, God showed mercy and compassion, sparing the city from the foretold disaster. Jonah, however, struggled to understand God's mercy, feeling displeased that the judgment he had foretold did not come to pass.
+    
+    The story of Jonah and the whale teaches profound lessons about obedience, repentance, and the boundless mercy of God. It reminds us that God's compassion extends to all who genuinely turn to Him, even in the face of our own shortcomings.`,
+    imageUrl: require('../Assets/008.jpg'),
   }
 
 ];
