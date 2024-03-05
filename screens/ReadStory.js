@@ -112,6 +112,23 @@ const ReadStory = ({ route }) => {
     
     The story of Jonah and the whale teaches profound lessons about obedience, repentance, and the boundless mercy of God. It reminds us that God's compassion extends to all who genuinely turn to Him, even in the face of our own shortcomings.`,
     imageUrl: require('../Assets/008.jpg'),
+  },
+  {
+    id: 7,
+    title: `The Sower and the Seed`,
+    intro: `A Lesson in Spiritual Growth`,
+    content: `LORD YESHUA, surrounded by a multitude of eager listeners, shared a parable to convey profound truths about the condition of human hearts and the reception of God's Word.
+
+    A sower went out to sow seed, scattering it across different types of soil. Some fell along the path, trampled by those who passed by and devoured by birds. This represents hearts that hear the message but quickly dismiss it, allowing distractions and worldly concerns to snatch away the Word.
+    
+    Other seeds fell on rocky ground, where the soil was shallow. These seeds sprouted quickly, but due to lack of roots, they withered away in the scorching sun. This reflects those who receive the Word with joy initially but lack depth in their faith. When faced with trials or persecution, their faith quickly fades.
+    
+    Some seeds fell among thorns, which grew up and choked the plants. This signifies individuals who hear the Word, but the cares of this world and the deceitfulness of wealth stifle their spiritual growth. The Word is overshadowed by the worries and desires of life.
+    
+    Yet, there is also seed that falls on good soil, producing a bountiful harvest. This represents the receptive heart, open to God's Word, allowing it to take root and bear fruit in abundance. Those who hear, understand, and apply the Word with perseverance produce a harvest that glorifies God.
+    
+    The parable of The Sower and the Seed serves as a call to self-examination and a reminder of the various responses people have to God's message. It emphasizes the importance of cultivating hearts that are receptive, deep-rooted, and free from the thorns of worldly distractions to yield a rich harvest in one's spiritual journey.`,
+    imageUrl: require('../Assets/009.jpg'),
   }
 
 ];

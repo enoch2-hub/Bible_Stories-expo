@@ -37,7 +37,14 @@ const StoryData = [
     title: `Jonah and the Whale`,
     intro: `A Tale of Obedience, Repentance, and Divine Mercy`,
     imageUrl: require('../Assets/008.jpg'),
+  },
+  {
+    id: 7,
+    title: `The Sower and the Seed`,
+    intro: `A Lesson in Spiritual Growth`,
+    imageUrl: require('../Assets/009.jpg'),
   }
+
 ];
 
 const StoryPageScreen = ({ navigation }) => {
