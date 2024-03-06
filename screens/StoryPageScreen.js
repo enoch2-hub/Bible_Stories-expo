@@ -1,53 +1,12 @@
 import React from 'react';
 import { View, Text, ScrollView, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
-const StoryData = [
-  {
-    id: 1,
-    title: `Daniel in the Lion's den`,
-    intro: `'Story of a faithful man of GOD'`,
-    imageUrl: require('../Assets/007.jpg'),
-  },
-  {
-    id: 2,
-    title: 'The Prodigal Son',
-    intro: 'This is the content of Story 2...',
-    imageUrl: require('../Assets/004.jpg'),
-  },
-  {
-    id: 3,
-    title: `Joseph and the coat of many colours`,
-    intro: 'A Journey from Betrayal to Redemption',
-    imageUrl: require('../Assets/005.jpg'),
-  },
-  {
-    id: 4,
-    title: 'Blind Bartimaeus',
-    intro: 'A Story of Faith and Healing',
-    imageUrl: require('../Assets/011.jpg'),
-  },
-  {
-    id: 5,
-    title: `Naaman's Servant Girl`,
-    intro: `A Message of Compassion and Healing`,
-    imageUrl: require('../Assets/003.jpg'),
-  },
-  {
-    id: 6,
-    title: `Jonah and the Whale`,
-    intro: `A Tale of Obedience, Repentance, and Divine Mercy`,
-    imageUrl: require('../Assets/008.jpg'),
-  },
-  {
-    id: 7,
-    title: `The Sower and the Seed`,
-    intro: `A Lesson in Spiritual Growth`,
-    imageUrl: require('../Assets/009.jpg'),
-  }
 
-];
 
-const StoryPageScreen = ({ navigation }) => {
+const StoryPageScreen = ({ navigation, route }) => {
+
+  const { StoryData } = route.params; // Get the storyId from the navigation route
+
   const navigateToStory = (StoryId) => {
     // Navigate to the individual story page
     navigation.navigate('ReadStory', { StoryId });

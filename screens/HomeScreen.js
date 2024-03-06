@@ -7,36 +7,11 @@ import { View, Text, StyleSheet, Button, Image, TouchableOpacity } from 'react-n
 import Swiper from 'react-native-swiper';
 import { ScrollView } from 'react-native-gesture-handler';
 
-const StoryData = [
-  {
-    id: 1,
-    title: `Daniel in the Lion's den`,
-    intro: `'Story of a faithful man of GOD'`,
-    imageUrl: require('../Assets/007.jpg'),
-  },
-  {
-    id: 2,
-    title: 'The Prodigal Son',
-    intro: 'This is the content of Story 2...',
-    imageUrl: require('../Assets/004.jpg'),
-  },
-  {
-    id: 3,
-    title: `Joseph and the coat of many colours`,
-    intro: 'A Journey from Betrayal to Redemption',
-    imageUrl: require('../Assets/005.jpg'),
-  },
-  {
-    id: 4,
-    title: 'Blind Bartimaeus',
-    intro: 'A Story of Faith and Healing',
-    imageUrl: require('../Assets/011.jpg'),
 
-  }
-];
+const HomeScreen = ({route}) => {
 
+  const {StoryData} = route.params;
 
-const HomeScreen = () => {
   const navigation = useNavigation();
 
 
@@ -66,15 +41,19 @@ const HomeScreen = () => {
 
       <Swiper style={styles.carouselContainer} showsPagination={false} autoplay>
         <Image
-          source={require('../Assets/003.jpg')}
+          source={require('../Assets/Stories/Story_Banners/Slide1.jpg')}
           style={styles.carouselImage}
           />
         <Image
-          source={require('../Assets/088.jpg')}
+          source={require('../Assets/Stories/Story_Banners/Slide2.jpg')}
           style={styles.carouselImage}
           />
         <Image
-          source={require('../Assets/090.jpg')}
+          source={require('../Assets/Stories/Story_Banners/Slide3.jpg')}
+          style={styles.carouselImage}
+        />
+        <Image
+          source={require('../Assets/Stories/Story_Banners/Slide4.jpg')}
           style={styles.carouselImage}
         />
       </Swiper>
@@ -83,7 +62,7 @@ const HomeScreen = () => {
       <Text style={styles.headerText}>Stories</Text>
 
     <View style={styles.cardsContainer}>
-      {StoryData.map((story) => (
+      {StoryData.slice(0,4).map((story) => (
         <TouchableOpacity
           key={story.id}
           style={styles.card}
