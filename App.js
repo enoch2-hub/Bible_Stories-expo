@@ -51,7 +51,7 @@ const StoryData = [{
   Instead of condemnation, the father celebrated the return of his lost son. He ordered a feast, symbolizing joy and reconciliation. The elder son, who had remained faithful and dutiful, was initially resentful at the extravagant welcome given to his wayward brother. Yet, the father, in his wisdom, reminded the elder son of the importance of forgiveness and compassion.
   
   The parable of the Prodigal Son illustrates the boundless mercy of God and the transformative power of repentance. It serves as a poignant reminder that, no matter how far we stray, the love of a compassionate Father awaits our return with open arms.`,
-  imageUrl: require('./Assets/004.jpg'),
+  imageUrl: require('./Assets/Stories/Slide4.jpg'),
   bckgimg: require('./Assets/Stories/003.jpg'),
 
 },
@@ -73,7 +73,7 @@ const StoryData = [{
   
   In a moment of revelation and reconciliation, Joseph forgave his brothers, recognizing that God had orchestrated events for a greater purpose. The family was reunited, and Joseph's journey from betrayal to redemption became a testament to the power of forgiveness and God's sovereign plan.`,
 
-  imageUrl: require('./Assets/005.jpg'),
+  imageUrl: require('./Assets/Stories/Slide2.jpg'),
   bckgimg: require('./Assets/Stories/003.jpg'),
 
 },
@@ -91,7 +91,7 @@ const StoryData = [{
   
   This story of Blind Bartimaeus is a powerful testament to the transformative power of faith and the compassion of Jesus. It teaches us the importance of persistence in seeking God's mercy and the incredible outcomes that result from trusting in His healing touch.`,
   
-  imageUrl: require('./Assets/011.jpg'),
+  imageUrl: require('./Assets/Stories/Slide5.jpg'),
   bckgimg: require('./Assets/Stories/003.jpg'),
 
 
@@ -111,7 +111,8 @@ const StoryData = [{
   As Naaman dipped himself in the Jordan River seven times, his skin was miraculously restored, and he became clean. Overwhelmed with gratitude, Naaman returned to Elisha, acknowledging the God of Israel as the true God and offering gifts.
   
   The story of Naaman's servant girl is a beautiful narrative of compassion and faith. The young maid, though in a position of servitude, cared for her master's well-being, leading to the healing of a mighty commander and a declaration of faith in the God of Israel.`,
-  imageUrl: require('./Assets/003.jpg'),
+  
+  imageUrl: require('./Assets/Stories/Slide6.jpg'),
   bckgimg: require('./Assets/Stories/003.jpg'),
 
 },
@@ -130,7 +131,8 @@ const StoryData = [{
   Witnessing Nineveh's repentance, God showed mercy and compassion, sparing the city from the foretold disaster. Jonah, however, struggled to understand God's mercy, feeling displeased that the judgment he had foretold did not come to pass.
   
   The story of Jonah and the whale teaches profound lessons about obedience, repentance, and the boundless mercy of God. It reminds us that God's compassion extends to all who genuinely turn to Him, even in the face of our own shortcomings.`,
-  imageUrl: require('./Assets/008.jpg'),
+  imageUrl: require('./Assets/Stories/Slide3.jpg'),
+  bckgimg: require('./Assets/003.jpg'),
 },
 {
   id: 7,
@@ -147,7 +149,9 @@ const StoryData = [{
   Yet, there is also seed that falls on good soil, producing a bountiful harvest. This represents the receptive heart, open to God's Word, allowing it to take root and bear fruit in abundance. Those who hear, understand, and apply the Word with perseverance produce a harvest that glorifies God.
   
   The parable of The Sower and the Seed serves as a call to self-examination and a reminder of the various responses people have to God's message. It emphasizes the importance of cultivating hearts that are receptive, deep-rooted, and free from the thorns of worldly distractions to yield a rich harvest in one's spiritual journey.`,
-  imageUrl: require('./Assets/009.jpg'),
+  
+  imageUrl: require('./Assets/Stories/Slide8.jpg'),
+  bckgimg: require('./Assets/004.jpg'),
 }
 
 ];
