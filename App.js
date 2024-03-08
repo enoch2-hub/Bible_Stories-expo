@@ -52,7 +52,7 @@ const StoryData = [{
   
   The parable of the Prodigal Son illustrates the boundless mercy of God and the transformative power of repentance. It serves as a poignant reminder that, no matter how far we stray, the love of a compassionate Father awaits our return with open arms.`,
   imageUrl: require('./Assets/Stories/Slide4.jpg'),
-  bckgimg: require('./Assets/Stories/003.jpg'),
+  bckgimg: require('./Assets/004.jpg'),
 
 },
 {
@@ -132,7 +132,7 @@ const StoryData = [{
   
   The story of Jonah and the whale teaches profound lessons about obedience, repentance, and the boundless mercy of God. It reminds us that God's compassion extends to all who genuinely turn to Him, even in the face of our own shortcomings.`,
   imageUrl: require('./Assets/Stories/Slide3.jpg'),
-  bckgimg: require('./Assets/003.jpg'),
+  bckgimg: require('./Assets/007.jpg'),
 },
 {
   id: 7,
