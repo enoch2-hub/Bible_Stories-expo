@@ -27,12 +27,5 @@ Follow these steps to get started:
 Happy reading and exploring the Bible stories!
 
 
-
-
-![001](https://github.com/enoch2-hub/Bible_Stories-expo/assets/151722245/f6e40ad2-d23f-4940-b887-e19d6ebca8f6)
-![007](https://github.com/enoch2-hub/Bible_Stories-expo/assets/151722245/e78462c2-72d2-4e6f-9e8d-bb8a7e72ec8e)
-![002](https://github.com/enoch2-hub/Bible_Stories-expo/assets/151722245/ee3ffb61-6689-49b9-a873-9d4890777292)
-![003](https://github.com/enoch2-hub/Bible_Stories-expo/assets/151722245/4cdf0ed3-fef5-4654-a0cd-421e23868a56)
-![004](https://github.com/enoch2-hub/Bible_Stories-expo/assets/151722245/98a944b5-0fba-4c55-a69e-d71d5c1868a2)
-![005](https://github.com/enoch2-hub/Bible_Stories-expo/assets/151722245/fcece6cf-b696-4521-b504-08c09fdbab08)
-![006](https://github.com/enoch2-hub/Bible_Stories-expo/assets/151722245/e0e20439-6d7a-4eb8-b1dc-dbbce88c36ef)
+![Slide1](https://github.com/enoch2-hub/Bible_Stories-expo/assets/151722245/52d4d861-e02c-4d6b-8202-51ce593e701d)
+![Slide2](https://github.com/enoch2-hub/Bible_Stories-expo/assets/151722245/64d346de-135f-49db-ae33-23648b6ba8e0)
