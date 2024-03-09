@@ -2,9 +2,9 @@
 
 A mobile application built with React Native that brings to life timeless and inspirational Bible stories.
 
-![Slide1](https://github.com/enoch2-hub/Bible_Stories-expo/assets/151722245/92f5db61-44fc-441b-8899-32615bea93c0)
-![Slide3](https://github.com/enoch2-hub/Bible_Stories-expo/assets/151722245/2b1454d8-3090-4910-9641-c560bd2dd493)
-![Slide2](https://github.com/enoch2-hub/Bible_Stories-expo/assets/151722245/b97d8aec-0813-4e4c-8c77-92e9dd81b275)
+![Slide1](https://github.com/enoch2-hub/Bible_Stories-expo/assets/151722245/0969cf7e-7bd3-450d-bfee-643da08dc917)
+![Slide2](https://github.com/enoch2-hub/Bible_Stories-expo/assets/151722245/ef844d37-e75f-4cc2-bda0-c70c5e2af831)
+![Slide3](https://github.com/enoch2-hub/Bible_Stories-expo/assets/151722245/3f0482c7-1737-47da-9e5f-3a4cca4584e9)
 
 
 ## Features
